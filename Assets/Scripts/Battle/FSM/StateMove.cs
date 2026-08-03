@@ -1,10 +1,4 @@
-/****************************************************
-	文件：StateMove.cs
-	作者：Plane
-	邮箱: 1785275942@qq.com
-	日期：2019/03/19 6:42   	
-	功能：移动状态
-*****************************************************/
+
 
 public class StateMove : IState {
     public void Enter(EntityBase entity, params object[] args) {

@@ -1,10 +1,3 @@
-/****************************************************
-	文件：StateDie.cs
-	作者：Plane
-	邮箱: 1785275942@qq.com
-	日期：2019/04/01 23:33   	
-	功能：死亡状态
-*****************************************************/
 
 public class StateDie : IState {
     public void Enter(EntityBase entity, params object[] args) {

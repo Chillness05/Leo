@@ -1,10 +1,4 @@
-/****************************************************
-    文件：BattleEndWnd.cs
-	作者：Plane
-    邮箱: 1785275942@qq.com
-    日期：2019/5/3 19:30:0
-	功能：战斗结算界面
-*****************************************************/
+
 
 using UnityEngine;
 using UnityEngine.UI;
@@ -111,7 +105,7 @@ public class BattleEndWnd : WindowRoot {
     private int resthp;
     public void SetBattleEndData(int fbid, int costtime, int resthp) {
         this.fbid = fbid;
-        this.costtime = costtime;
+        this.costtime = costtime/1000;
         this.resthp = resthp;
     }
 }

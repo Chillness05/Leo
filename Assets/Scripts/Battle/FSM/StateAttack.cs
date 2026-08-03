@@ -1,10 +1,3 @@
-/****************************************************
-	文件：StateAttack.cs
-	作者：Plane
-	邮箱: 1785275942@qq.com
-	日期：2019/03/20 8:30   	
-	功能：攻击状态
-*****************************************************/
 
 public class StateAttack : IState {
     public void Enter(EntityBase entity, params object[] args) {
